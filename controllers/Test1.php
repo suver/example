@@ -10,6 +10,7 @@ namespace controllers;
 
 use vendor\application\Controller;
 use vendor\web\Applicaton;
+use vendor\web\Logger;
 
 class Test1 extends Controller {
 
@@ -43,9 +44,13 @@ class Test1 extends Controller {
                     $sql = "INSERT INTO `matrix` SET `x`=$x, `y`=$y, `value`=$value";
                     Applicaton::$app->db->query($sql);
                 }
-                else if (!empty($value) && isset($data[$y]) && isset($data[$y][$x]) && $data[$y][$x] != $value) {
-                    $sql = "UPDATE FROM `matrix` SET `value`=$value WHERE `x`=$x AND `y`=$y";
-                    Applicaton::$app->db->query($sql);
+                else if (!empty($value) && !empty($data[$y][$x]) && $data[$y][$x] != $value) {
+                    $pdo = Applicaton::$app->db;
+                    $sql = "UPDATE `matrix` SET `value`=$value WHERE `x`=$x AND `y`=$y";
+                    if(!$pdo->query($sql)) {
+                        $error = true;
+                        Logger::debug($sql)->error($pdo->errorInfo())->fail('query fail')->show();
+                    }
                 }
                 else if (isset($data[$y]) && isset($data[$y][$x]) && !empty($data[$y][$x]) && empty($value)) {
                     $sql = "DELETE FROM `matrix` WHERE `x`=$x AND`y`=$y\n";
@@ -53,7 +58,8 @@ class Test1 extends Controller {
                 }
             }
 
-            $this->refresh();
+            if(!$error)
+                $this->refresh();
         }
 
         return $this->render('test1/index', ['data' => $data, 'errors' => $errors]);

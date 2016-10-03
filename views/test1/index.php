@@ -12,6 +12,14 @@ function toCol($data, $iY, $iX) {
 ?>
 <h2>Проверка 1</h2>
 
+<p>
+    Что следует помнить?
+    <ul>
+        <li>1. Значние настройки <b>max_input_vars</b> должно допускать объем сетки.</li>
+        <li>2. <b>memory_limit</b> должен быть достаточно большим</li>
+    </ul>
+</p>
+
 <?php if($errors) { ?>
     <?php foreach($errors as $error) { ?>
         <p style="color: red; padding: 10px; background-color: deepskyblue;"><?php echo $error ?></p>
