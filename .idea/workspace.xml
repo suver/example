@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e290d30f-5135-4384-ab2d-ac4b156f5367" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Test1.php" afterPath="$PROJECT_DIR$/controllers/Test1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test1/index.php" afterPath="$PROJECT_DIR$/views/test1/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test2/index.php" afterPath="$PROJECT_DIR$/views/test2/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Test2.php" afterPath="$PROJECT_DIR$/controllers/Test2.php" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test2.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Test2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/Test2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="154" column="27" selection-start-line="154" selection-start-column="27" selection-end-line="154" selection-end-column="27" />
+            <state relative-caret-position="426">
+              <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
               <folding>
                 <element signature="e#116#136#0#PHP" expanded="true" />
               </folding>
@@ -82,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test1.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/Test1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="426">
@@ -166,12 +163,12 @@
         <option value="$PROJECT_DIR$/views/test2/example1.php" />
         <option value="$PROJECT_DIR$/views/test2/example3.php" />
         <option value="$PROJECT_DIR$/views/test2/example2.php" />
-        <option value="$PROJECT_DIR$/controllers/Test2.php" />
         <option value="$PROJECT_DIR$/views/test2/example4.php" />
         <option value="$PROJECT_DIR$/common/Example4.php" />
         <option value="$PROJECT_DIR$/views/test2/index.php" />
         <option value="$PROJECT_DIR$/views/test1/index.php" />
         <option value="$PROJECT_DIR$/controllers/Test1.php" />
+        <option value="$PROJECT_DIR$/controllers/Test2.php" />
       </list>
     </option>
   </component>
@@ -389,6 +386,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -734,12 +732,12 @@
       <option name="presentableId" value="Default" />
       <updated>1475307163249</updated>
       <workItem from="1475307165031" duration="50285000" />
-      <workItem from="1475500772322" duration="451000" />
+      <workItem from="1475500772322" duration="687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50736000" />
+    <option name="totallyTimeSpent" value="50972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1873" height="1056" extended-state="6" />
@@ -1108,16 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Test2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="154" column="27" selection-start-line="154" selection-start-column="27" selection-end-line="154" selection-end-column="27" />
-          <folding>
-            <element signature="e#116#136#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/test2/example4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1168,6 +1156,16 @@
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
             <element signature="e#116#150#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Test2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
+          <folding>
+            <element signature="e#116#136#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

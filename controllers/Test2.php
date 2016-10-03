@@ -98,7 +98,7 @@ class Test2 extends Controller {
         /**
          *  УЖАСНО ДОЛГО
          */
-        List($d1_index, $d2_index, $d_value) = Example3::run($crop);
+        //List($d1_index, $d2_index, $d_value) = Example3::run($crop);
 
         $timer->stop();
         $compare = $timer->compare();
@@ -129,7 +129,7 @@ class Test2 extends Controller {
         $crop = $this->generator();
         $data['crop_count'] = count($crop);
 
-        List($d1_index, $d2_index, $d_value) = Example4::run($crop);
+        //List($d1_index, $d2_index, $d_value) = Example4::run($crop);
 
         $timer->stop();
         $compare = $timer->compare();
