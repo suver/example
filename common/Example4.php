@@ -13,7 +13,8 @@ namespace common;
  * @package common
  *
  * Способ 3
- * 1. В циклах проверяем все значения и находим дублируюшиеся
+ * 1. В циклах проверяем все значения и находим дублируюшиеся, но при этом во второй циул начинаем от ключа выше
+ *      текущего на +1, что бы измежать повторных проверок
  */
 class Example4 {
 
@@ -23,10 +24,11 @@ class Example4 {
     }
 
     private static function search($crop) {
-        foreach($crop as $k=>$val) {
-            foreach($crop as $k1=>$val1) {
-                if($val == $val1 && $k != $k1) {
-                    return [$k, $k1, $val];
+        $count = count($crop);
+        for($i=0;$i<=$count;$i++) {
+            for($i1=$i+1;$i1<=$count;$i1++) {
+                if($crop[$i] == $crop[$i1]) {
+                    return [$i, $i1, $crop[$i1]];
                 }
             }
         }

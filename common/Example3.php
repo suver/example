@@ -13,27 +13,23 @@ namespace common;
  * @package common
  *
  * Способ 3
- * 1. array_walk находит дубли и ставит вместо его значения dublicate
- * 2. находим dublicate
- * 3. Получаем 1 индекс и значение
- * 4. Находим второй индекс
+ * 1. Берем цикл, с его помощью начинаем формировать второй пустой массив, где ключами будут значения массива
+ * 2. Сверяя наличие значение в индексе нового массива будет искомым значением
  */
 class Example3 {
 
     public static function run($crop) {
-        $dublicate = $crop;
-        array_walk($dublicate, function (&$item, &$key, &$crop) {
-            unset($crop[$key]);
-            if(in_array($item, $crop)) {
-                $item = 'dublicate';
+        $map = [];
+        $count = count($crop);
+        for($i=0;$i<=$count;$i++) {
+            if(!$map[$crop[$i]]) {
+                $map[$crop[$i]] = $i;
             }
-        }, $crop);
-
-        $d1_index = array_search('dublicate', $dublicate);
-        $d_value = $crop[$d1_index];
-        $d2_index = array_search($d_value, $dublicate);
-
-        return [$d1_index, $d2_index, $d_value];
+            else {
+                return [$map[$crop[$i]], $i, $crop[$i]];
+            }
+        }
+        return [null, null, null];
     }
 
 }

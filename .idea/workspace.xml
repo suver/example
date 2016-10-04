@@ -7,7 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e290d30f-5135-4384-ab2d-ac4b156f5367" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/Example3.php" afterPath="$PROJECT_DIR$/common/Example3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/Example4.php" afterPath="$PROJECT_DIR$/common/Example4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Test2.php" afterPath="$PROJECT_DIR$/controllers/Test2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test2/example3.php" afterPath="$PROJECT_DIR$/views/test2/example3.php" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +34,8 @@
       <file leaf-file-name="Test2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/Test2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
+            <state relative-caret-position="636">
+              <caret line="151" column="24" selection-start-line="151" selection-start-column="24" selection-end-line="151" selection-end-column="24" />
               <folding>
                 <element signature="e#116#136#0#PHP" expanded="true" />
               </folding>
@@ -39,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example4.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/Example4.php">
+      <file leaf-file-name="Example3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/Example3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/test2/example3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -82,7 +96,7 @@
       <file leaf-file-name="Test1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/Test1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
+            <state relative-caret-position="600">
               <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
@@ -95,7 +109,7 @@
       <file leaf-file-name="Migration.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/migration/Migration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="510">
               <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="88" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
@@ -158,16 +172,16 @@
         <option value="$PROJECT_DIR$/common/Timer.php" />
         <option value="$PROJECT_DIR$/layouts/main.php" />
         <option value="$PROJECT_DIR$/common/Example1.php" />
-        <option value="$PROJECT_DIR$/common/Example3.php" />
         <option value="$PROJECT_DIR$/common/Example2.php" />
         <option value="$PROJECT_DIR$/views/test2/example1.php" />
-        <option value="$PROJECT_DIR$/views/test2/example3.php" />
         <option value="$PROJECT_DIR$/views/test2/example2.php" />
         <option value="$PROJECT_DIR$/views/test2/example4.php" />
-        <option value="$PROJECT_DIR$/common/Example4.php" />
         <option value="$PROJECT_DIR$/views/test2/index.php" />
         <option value="$PROJECT_DIR$/views/test1/index.php" />
         <option value="$PROJECT_DIR$/controllers/Test1.php" />
+        <option value="$PROJECT_DIR$/common/Example4.php" />
+        <option value="$PROJECT_DIR$/views/test2/example3.php" />
+        <option value="$PROJECT_DIR$/common/Example3.php" />
         <option value="$PROJECT_DIR$/controllers/Test2.php" />
       </list>
     </option>
@@ -220,9 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -367,6 +378,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -732,12 +746,14 @@
       <option name="presentableId" value="Default" />
       <updated>1475307163249</updated>
       <workItem from="1475307165031" duration="50285000" />
-      <workItem from="1475500772322" duration="687000" />
+      <workItem from="1475500772322" duration="1291000" />
+      <workItem from="1475526864154" duration="1805000" />
+      <workItem from="1475596079948" duration="1209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50972000" />
+    <option name="totallyTimeSpent" value="54590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="24" width="1873" height="1056" extended-state="6" />
@@ -928,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,26 +1081,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/Example3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/test2/example1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/test2/example3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1102,22 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/test2/example4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/Example4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1140,7 +1123,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/migration/Migration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="510">
           <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="88" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
@@ -1151,7 +1134,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Test1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
+        <state relative-caret-position="600">
           <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
@@ -1160,10 +1143,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/test2/example4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Example4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="16" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/test2/example3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/Example3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Test2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
+        <state relative-caret-position="636">
+          <caret line="151" column="24" selection-start-line="151" selection-start-column="24" selection-end-line="151" selection-end-column="24" />
           <folding>
             <element signature="e#116#136#0#PHP" expanded="true" />
           </folding>

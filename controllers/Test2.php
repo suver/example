@@ -91,14 +91,11 @@ class Test2 extends Controller {
         $timer = new Timer();
         $timer->start();
 
-        /** Алгоритм 1 */
+        /** Алгоритм 3 */
         $crop = $this->generator();
         $data['crop_count'] = count($crop);
 
-        /**
-         *  УЖАСНО ДОЛГО
-         */
-        //List($d1_index, $d2_index, $d_value) = Example3::run($crop);
+        List($d1_index, $d2_index, $d_value) = Example3::run($crop);
 
         $timer->stop();
         $compare = $timer->compare();
@@ -125,11 +122,11 @@ class Test2 extends Controller {
         $timer = new Timer();
         $timer->start();
 
-        /** Алгоритм 1 */
+        /** Алгоритм 4 */
         $crop = $this->generator();
         $data['crop_count'] = count($crop);
 
-        //List($d1_index, $d2_index, $d_value) = Example4::run($crop);
+        List($d1_index, $d2_index, $d_value) = Example4::run($crop);
 
         $timer->stop();
         $compare = $timer->compare();

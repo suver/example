@@ -32,15 +32,15 @@
     </tr>
     <tr>
         <th>Время обработки</th>
-        <td><?php //echo $compare ?></td>
+        <td><?php echo $compare ?></td>
     </tr>
     <tr>
         <th>Дубликаты</th>
-        <td><?php //echo $dublicate_index ?>, <?php //echo $dublicate2_index ?></td>
+        <td><?php echo $dublicate_index ?>, <?php echo $dublicate2_index ?></td>
     </tr>
     <tr>
         <th>Значение</th>
-        <td><?php //echo $dublicate_value ?></td>
+        <td><?php echo $dublicate_value ?></td>
     </tr>
 </table>
 
